@@ -5,10 +5,10 @@
 #### Properties
 >The characteristics of a class or object are called **properties** (also attributes or fields).
 #### Methods
->Behaviours of a class or object are called **methods**(also actions).
+>Behaviours of a class or object are called **methods** (also actions).
 #### Members
 >The methods and properties of a class are called the members of the class.
-#### Creating a class and objects
+#### Creating classes and objects
 
 ```php
 // class declaration
@@ -29,4 +29,10 @@ class Car
 // class instantiation
 $bmw = new Car();
 $opel = new Car();
+
+// accessing properties
+$bmw->maker;
+// calling methods
+$bmw->getMaker();
 ```
+
