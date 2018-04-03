@@ -35,4 +35,9 @@ $bmw->maker;
 // calling methods
 $bmw->getMaker();
 ```
+### Visibility
+- Public: Class members declared public can be accessed everywhere.
+- Protected: Members declared protected can be accessed only within the class itself and by inheriting and parent classes. 
+- Public: Members declared as private may only be accessed by the class that defines the member.
 
+Properties must have visibility declared, methods that don't have visibility declared are public by default.
